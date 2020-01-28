@@ -101,18 +101,85 @@ header
 {
   background-color:#4D9078;
 }
-
- h1
+.main
+{
+  background-color: red;
+}
+h1
 {
   
   text-align: center;
   color: white;
 }
-
+.firstpart
+{
+  display: inline;
+}
+.section1
+{
+  float: left;
+  background-color: violet;
+}
 ul
 {
   list-style: none;
   display: inline
+}
+.board1
+{
+  background-color: lightskyblue;
+}
+.board2
+{
+  background-color: lime;
+}
+.section2
+{
+  
+  float: left;
+  background-color: turquoise;
+}
+.section22
+{
+  background-color: tomato;
+}
+#cercle1 {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background: #F3DE8A;
+}
+#cercle2 {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background:#EB9486;
+}
+#cercle3 {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background: #F3DE8A;
+}
+#cercle4 {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background: green;
+}
+.section3
+{
+  float: right;
+  background-color: yellow;
+}
+.section4
+{
+  background-color: yellowgreen;
+}
+p
+{
+  text-align: center; 
+  
 }
 /* ==========================================================================
    Helper classes
