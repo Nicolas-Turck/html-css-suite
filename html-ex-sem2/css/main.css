@@ -115,15 +115,22 @@ h1
 {
   display: inline;
 }
+h2
+{
+  background-color: limegreen;
+}
 .section1
 {
+  /* margin-left:5%; */
+  height: 50%;
+  width: 40%;
   float: left;
   background-color: violet;
 }
 ul
 {
   list-style: none;
-  display: inline
+  display: inline-block;
 }
 .board1
 {
@@ -135,40 +142,44 @@ ul
 }
 .section2
 {
-  
+  width: 50%;
   float: left;
   background-color: turquoise;
 }
-.section22
+.section22 div
 {
+  flex-direction: row;
+  display: inline-block;
   background-color: tomato;
 }
 #cercle1 {
-  width: 200px;
-  height: 200px;
-  border-radius: 100px;
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
   background: #F3DE8A;
 }
 #cercle2 {
-  width: 200px;
-  height: 200px;
-  border-radius: 100px;
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
   background:#EB9486;
 }
 #cercle3 {
-  width: 200px;
-  height: 200px;
-  border-radius: 100px;
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
   background: #F3DE8A;
 }
 #cercle4 {
-  width: 200px;
-  height: 200px;
-  border-radius: 100px;
-  background: green;
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  background: #4D9078;
 }
 .section3
 {
+  margin-right: 5%;
+  width: 50%;
   float: right;
   background-color: yellow;
 }
