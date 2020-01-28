@@ -135,16 +135,36 @@ ul
 .board1
 {
   background-color: lightskyblue;
+  width: 100%;
+  height: 100%;
 }
 .board2
 {
   background-color: lime;
+  width: 100%;
+  height: 100%;
+  
 }
-.section2
+.boardcelulle1
 {
-  width: 50%;
-  float: left;
-  background-color: turquoise;
+  background-color: #4D9078;
+  rows;
+}
+.celulle1
+{
+  background-color: #4D9078;
+}
+.celulle2
+{
+  background-color: #F3DE8A;
+}
+.celulle3
+{
+  background-color: #EB9486;
+}
+.celulle4
+{
+  background-color: #4D9078;
 }
 .section22 div
 {
@@ -176,21 +196,45 @@ ul
   border-radius: 75px;
   background: #4D9078;
 }
-.section3
+.section2
 {
   margin-right: 5%;
   width: 50%;
   float: right;
   background-color: yellow;
 }
-.section4
+.progress-bar 
 {
-  background-color: yellowgreen;
+  
+  background: grey;
+  
+  text-align: right;
+  
 }
+.progress 
+{
+
+  padding: 5px;
+  
+  background: #4D9078;
+  
+}
+  
+.progress span 
+{
+  
+  color: #FFF;
+  
+} 
+  
 p
 {
   text-align: center; 
   
+}
+.titleprogressbar
+{
+  float:left;
 }
 /* ==========================================================================
    Helper classes

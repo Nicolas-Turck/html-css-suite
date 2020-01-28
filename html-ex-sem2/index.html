@@ -31,13 +31,13 @@
   <!-- start main -->
   <main>
     <!-- section1 -->
- 
     <section class="section1">
       <h2>Sales and states</h2>
       <nav>
         <ul>
           <li>
             <input type="text" id="name" name="Price">
+            
           </li>
           <li>
             <label for="Price">Price</label>
@@ -51,7 +51,6 @@
               <option value="">- to +</option>
             </select>
           </li>
-           
           <li>
             <button name="button">Sort</button>
           </li>
@@ -59,7 +58,7 @@
       </nav>
       <!-- start board -->
       <table class="board1">
-        <tr><td>Sales records</td></tr>
+        <tr><td class="boardcelulle1">Sales records</td></tr>
         <tr><td>Article</td><td>Price</td><td>Quantity</td></tr>
         <tr>
           <td>Data</td>
@@ -88,19 +87,16 @@
         </tr>
       </table>
       <!-- end board -->
-    
-    <!-- section2 -->
-    
       <!-- start board -->
       <table class="board2">
-        <tr><td>Stock</td><td>Cash</td></tr>
-        <tr><td>Conversion</td><td>Warehouse</td></tr>
+        <tr><td class="celulle1">Stock</td><td class="celulle2">Cash</td></tr>
+        <tr><td class="celulle3">Conversion</td><td class="celulle4">Warehouse</td></tr>
       </table>
       <!-- end board -->
     </section>
-    <!-- section3 -->
-    <section class="section3">
-      <h2>Tendency indicators</h2>
+    <!-- section2 -->
+    <section class="section2">
+      <h2>Tendency indicators <i class="fas fa-stethoscope"></i></h2>
       <img src="" alt="">
       <section class="section22">
         <div id="cercle1"><p>40 Average purchase</p></div>
@@ -111,14 +107,35 @@
       </section>
     
   </div>
-  <!-- section4 -->
-    
-      <h2>charts</h2>
-      <img src="" alt="">
+      <h2>charts <i class="far fa-chart-bar"></i></script></h2>
+      
       <section>
-        <div></div>
-        <div></div>
-        <div></div>
+        <div>
+          <p class="titleprogressbar">entertainement</p>
+          <div class="progress-bar">
+            <div class="progress" style="width:40%;" >
+              <span>40%</span>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div>
+          <p class="titleprogressbar">Hight tech</p>
+          <div class="progress-bar">
+            <div class="progress" style="width:80%;">
+              <span>80%</span>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div>
+          <p class="titleprogressbar">Clothes</p>
+          <div class="progress-bar">
+            <div class="progress" style="width:60%;">
+              <span>60%%</span>
+            </div>
+          </div>
+        </div>
       </section>
     </section>
   <!-- end main -->
@@ -130,6 +147,7 @@
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
+  <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
