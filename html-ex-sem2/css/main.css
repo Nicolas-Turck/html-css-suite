@@ -118,6 +118,10 @@ h1
 {
   display: inline;
 }
+nav p
+{
+ display: inline-block;
+}
 h2
 {
   background-color: white;
@@ -135,6 +139,7 @@ li
 {
   list-style: none;
   display: inline;
+  
 }
 .entertext
 {
@@ -164,7 +169,7 @@ tr
   text-align: center;
 
 }
-.tr2
+/* .tr2
 {
   border: none;
 }
@@ -175,6 +180,10 @@ tr
   width: 100%;
   height: 100%;
   
+} */
+.cubecolor
+{
+  background-color: white;
 }
 .boardcelulle1
 {
@@ -182,56 +191,78 @@ tr
   color: white;
   font-style: italic;
 }
+.blockligne1
+{
+  display: inline-block;
+}
 .celulle1
 {
   padding: 70px;
   background-color: #4D9078;
+  
 }
 .celulle2
 {
+
   padding: 70px;
   background-color: #F3DE8A;
 }
+.blockligne2
+{
+  display: inline-block;
+}
 .celulle3
 {
+  
   padding: 70px;
   background-color: #EB9486;
 }
 .celulle4
 {
+  
   padding: 70px;
   background-color: #4D9078;
 }
+/* .blockligne1
+{
+  display: inline-block;
+ ;
+} */
+/* .blockligne2
+{
+  display: inline-block;
+} */
 .section22 div
 {
   flex-direction: row;
   display: inline-block;
   background-color: tomato;
 }
+
 #cercle1 {
-  width: 150px;
-  height: 150px;
-  border-radius: 75px;
+  width: 130px;
+  height: 130px;
+  border-radius: 65px;
   background: #F3DE8A;
   
 }
 #cercle2 {
-  width: 150px;
-  height: 150px;
-  border-radius: 75px;
+  width: 130px;
+  height: 130px;
+  border-radius: 65px;
   background:#EB9486;
 }
 #cercle3 {
-  width: 150px;
-  height: 150px;
-  border-radius: 75px;
+  width: 130px;
+  height: 130px;
+  border-radius: 65px;
   background: #F3DE8A;
 }
 #cercle4 {
   position: relative;
-  width: 150px;
-  height: 150px;
-  border-radius: 75px;
+  width: 130px;
+  height: 130px;
+  border-radius: 65px;
   background: #4D9078;
 }
 .circletext
@@ -240,6 +271,7 @@ tr
   display:block;
   padding-top:20px; 
   line-height: 2em;
+  font-style: italic;
   
   
  }

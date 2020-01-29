@@ -36,21 +36,34 @@
       <nav>
         <ul>
           <li>
-            <p>Products</p>
-            <input class="entertext" type="text" id="name" name="Price">
-            
+            <p>Products<br>
+            <textarea name="Products" id="products" cols="10" rows="2"></textarea></p>
           </li>
           <li>
-            <label for="Price">Price</label>
-            <select name="price" id="price">
-              <option value="">- to +</option>
-            </select>
+            <!-- list for choice elem  -->
+            <p>Price<br>
+            <SELECT name="nom" size="1">
+              <OPTION>1
+              <OPTION>2
+              <OPTION>3
+              <option selected>- to +
+              <OPTION>4
+              <OPTION>5
+              <option>6
+              </SELECT></p>
           </li>
           <li>
-            <label for="Quantity > to ">Quantity > to</label>
-            <select name="quantity" id="quantity">
-              <option value="">- to +</option>
-            </select>
+            <!-- list for choice elem  -->
+            <p>Quantity > to<br>
+            <SELECT name="quantity" size="1">
+              <OPTION selected>0
+              <OPTION>10
+              <OPTION>20
+              <OPTION>30
+              <OPTION>40
+              <OPTION>50
+              <option>60
+              </SELECT></p>
           </li>
           <li>
             <button classe="buttonsort" name="button">Sort</button>
@@ -88,13 +101,27 @@
           <td>Data</td>
         </tr>
       </table>
-      <br>
+    
       <!-- end board -->
       <!-- start board -->
-      <table class="board2">
+      <!-- <table class="board2">
         <tr class="tr2"><td class="celulle1"><i class="fas fa-boxes"></i> Stock</td><td class="celulle2"><i class="fas fa-dollar-sign"></i> Cash</td></tr>
         <tr class="tr2"><td class="celulle3"><i class="fas fa-trophy"></i> Conversion</td><td class="celulle4"><i class="fas fa-warehouse"></i> Warehouse</td></tr>
-      </table>
+      </table> -->
+      <section class="cubecolor">
+        <div class="blockligne1">
+          <p class="celulle1"><i class="fas fa-boxes"></i> Stock</p>
+        <!-- </div>
+        <div> -->
+          <p class="celulle2"><i class="fas fa-dollar-sign"></i> Cash</p>
+        </div>
+        <div class="blockligne2">
+          <p class="celulle3"><i class="fas fa-trophy"></i> Conversion</p>
+        <!-- </div>
+        <div> -->
+          <p class="celulle4"><i class="fas fa-warehouse"></i> Warehouse</p>
+        </div>
+      </section>
       <!-- end board -->
     </section>
     <!-- section2 -->
@@ -110,7 +137,7 @@
       </section>
     <br>
   </div>
-      <h2>charts <i class="far fa-chart-bar"></i></script></h2>
+      <h2>Charts <i class="far fa-chart-bar"></i></script></h2>
       
       <section>
         <div class="linebar">
