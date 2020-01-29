@@ -134,10 +134,23 @@ ul
 }
 .board1
 {
+  
+  border: black;
   background-color: lightskyblue;
   width: 100%;
   height: 100%;
 }
+table
+{
+  border-collapse: collapse;
+}
+td, th
+{
+  border: 1px solid black;
+  text-align: center;
+
+}
+
 .board2
 {
   background-color: lime;
@@ -148,7 +161,7 @@ ul
 .boardcelulle1
 {
   background-color: #4D9078;
-  rows;
+  color: white;
 }
 .celulle1
 {
