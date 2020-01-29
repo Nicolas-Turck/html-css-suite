@@ -109,6 +109,7 @@ header
 }
 h1
 {
+  font-family: 'Actor';
   padding-top: 20px;
   margin-top: initial;
   text-align: center;
@@ -120,10 +121,16 @@ h1
 }
 nav p
 {
+  font-family: 'Actor';
  display: inline-block;
+}
+.input
+{
+  border-radius: 10%;
 }
 h2
 {
+  font-family: 'Actor';
   background-color: white;
 }
 .section1
@@ -137,6 +144,7 @@ h2
 ul, 
 li
 {
+  font-family: 'Actor';
   list-style: none;
   display: inline;
   
@@ -157,6 +165,7 @@ li
 }
 td, th
 {
+  font-family: 'Actor';
   padding: 10px;
 }
 table
@@ -184,6 +193,8 @@ tr
 .cubecolor
 {
   background-color: white;
+  width: auto;
+  height: auto;
 }
 .boardcelulle1
 {
@@ -194,44 +205,39 @@ tr
 .blockligne1
 {
   display: inline-block;
+  width: auto;
 }
 .celulle1
 {
+  font-family: 'Actor';
   padding: 70px;
   background-color: #4D9078;
   
 }
 .celulle2
 {
-
+  font-family: 'Actor';
   padding: 70px;
   background-color: #F3DE8A;
 }
 .blockligne2
 {
   display: inline-block;
+  width: auto;
 }
 .celulle3
 {
-  
+  font-family: 'Actor';
   padding: 70px;
   background-color: #EB9486;
 }
 .celulle4
 {
-  
+  font-family: 'Actor';
   padding: 70px;
   background-color: #4D9078;
 }
-/* .blockligne1
-{
-  display: inline-block;
- ;
-} */
-/* .blockligne2
-{
-  display: inline-block;
-} */
+
 .section22 div
 {
   flex-direction: row;
@@ -240,38 +246,39 @@ tr
 }
 
 #cercle1 {
-  width: 130px;
-  height: 130px;
-  border-radius: 65px;
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
   background: #F3DE8A;
   
 }
 #cercle2 {
-  width: 130px;
-  height: 130px;
-  border-radius: 65px;
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
   background:#EB9486;
 }
 #cercle3 {
-  width: 130px;
-  height: 130px;
-  border-radius: 65px;
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
   background: #F3DE8A;
 }
 #cercle4 {
   position: relative;
-  width: 130px;
-  height: 130px;
-  border-radius: 65px;
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
   background: #4D9078;
 }
 .circletext
 {
-  
+  font-family: 'Actor';
   display:block;
   padding-top:20px; 
   line-height: 2em;
   font-style: italic;
+  font-size: 1em;
   
   
  }
@@ -293,7 +300,7 @@ tr
 }
 .progress 
 {
-
+  font-family: 'Actor';
   padding: 5px;
   height: 50px;
   background: #4D9078;
@@ -309,11 +316,14 @@ tr
   
 p
 {
+  font-family: 'Actor';
   text-align: center; 
   
 }
 .titleprogressbar
 {
+  font-family: 'Actor';
+  font-family: 'Actor';
   float:left;
 }
 /* .linebar
