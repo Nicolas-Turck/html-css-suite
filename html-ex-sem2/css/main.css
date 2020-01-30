@@ -150,6 +150,7 @@ h2
 .section1
 {
   margin-left:5%; 
+  margin-right: 5%;
   height: 50%;
   width: 35%;
   float: left;
@@ -345,6 +346,84 @@ p
   width: 100%;
   display: inline-flex;
 }  */
+/* -----code pour un format d'Ã©cran------*/ 
+
+
+
+
+/*------Code pour format de tablette----*/
+
+@media(min-width: 768px) and (max-width: 1388px)
+{
+/* propriétés tablette */	
+}
+
+
+/*----Code pour format de smartphone----*/
+
+@media(max-width: 767px)
+{
+  header
+  {
+    width: 100%;
+  }
+  h1
+  {
+    width: 100%;
+  }
+  body
+  {
+    width: 100%;
+  }
+  .section1
+  {
+    width: auto;
+    
+   
+  }
+  nav
+  {
+    width: auto;
+  }
+  table
+  {
+    width: auto;
+  }
+  .board1
+  {
+    float: left;
+    width: 80%;
+    /* height: 80px; */
+  }
+  .board2
+  {
+    
+    width: 80%;
+    
+  }
+  tbody
+  {
+    width: 80%;
+  }
+  .tr2, td
+  {
+    width: 80%;
+  }
+  .cubecolor
+  {
+    width: auto;
+  }
+  .section2
+  {
+    width: auto;
+    margin-left: 5%;
+  }
+  .section22
+  {
+    width: 100%;
+  }
+/* propriété smartphone */
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
