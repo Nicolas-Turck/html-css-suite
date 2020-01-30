@@ -378,8 +378,6 @@ p
   .section1
   {
     width: auto;
-    
-   
   }
   nav
   {
@@ -391,27 +389,29 @@ p
   }
   .board1
   {
-    float: left;
+    /* float: left; */
     width: 80%;
     /* height: 80px; */
   }
   .board2
   {
-    
     width: 80%;
-    
   }
   tbody
   {
     width: 80%;
   }
-  .tr2, td
+  .tr2
   {
     width: 80%;
+  } 
+  td
+  {
+    width: auto;
   }
   .cubecolor
   {
-    width: auto;
+    width: 80%;
   }
   .section2
   {
