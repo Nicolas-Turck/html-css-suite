@@ -13,6 +13,8 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link href='https://fonts.googleapis.com/css?family=Actor' rel='stylesheet'>
+
 
   <meta name="theme-color" content="#fafafa">
 </head>
@@ -23,12 +25,159 @@
   <![endif]-->
 
   <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+  <!-- start header -->
+  <header>
+    <h1>Sales dashboard</h1>
+  </header>
+  <!-- end header -->
+  <!-- start main -->
+  <main>
+    <!-- section1 -->
+    <section class="section1">
+      <h2>Sales and states</h2>
+      <nav>
+        <ul>
+          <li>
+            <p>Products<br>
+              <input class="input" type="text" id="name" name="name" value="Product's name" size="12"> </p>
+          </li>
+          <li>
+            <!-- list for choice elem  -->
+            <p>Price<br>
+            <SELECT class="Pricebutton" name="nom" size="1">
+              <OPTION>1
+              <OPTION>2
+              <OPTION>3
+              <option selected>- to +
+              <OPTION>4
+              <OPTION>5
+              <option>6
+              </SELECT></p>
+          </li>
+          <li>
+            <!-- list for choice elem  -->
+            <p>Quantity > to<br>
+            <SELECT class="Quantitybutton" name="quantity" size="1">
+              <OPTION selected>0
+              <OPTION>10
+              <OPTION>20
+              <OPTION>30
+              <OPTION>40
+              <OPTION>50
+              <option>60
+              </SELECT></p>
+          </li>
+          <li>
+            <button class="buttonsort" name="button" size="10">Sort</button>
+          </li>
+        </ul>
+      </nav>
+      <br>
+      <!-- start board -->
+      <table class="board1">
+        <tr><th colspan="3" class="boardcelulle1">Sales records</th></tr>
+        <tr><th><strong>Article</strong></th><th><strong>Price</strong></th><th><strong>Quantity</strong></th></tr>
+        <tr>
+          <td>Data</td>
+          <td>Data</td>
+          <td>Data</td>
+        </tr>
+        <tr>
+          <td>Data</td>
+          <td>Data</td>
+          <td>Data</td>
+        </tr>
+        <tr>
+          <td>Data</td>
+          <td>Data</td>
+          <td>Data</td>
+        </tr>
+        <tr>
+          <td>Data</td>
+          <td>Data</td>
+          <td>Data</td>
+        </tr>
+        <tr>
+          <td>Data</td>
+          <td>Data</td>
+          <td>Data</td>
+        </tr>
+      </table>
+    <br>
+      <!-- end board -->
+      <!-- start board -->
+      <table class="board2">
+        <tr class="tr2"><td class="celulle1"><i class="fas fa-boxes"></i> Stock</td><td class="celulle2"><i class="fas fa-dollar-sign"></i> Cash</td></tr>
+        <tr class="tr2"><td class="celulle3"><i class="fas fa-trophy"></i> Conversion</td><td class="celulle4"><i class="fas fa-warehouse"></i> Warehouse</td></tr>
+      </table>
+      <!-- <section class="cubecolor">
+        <div class="blockligne1">
+          <p class="celulle1"><i class="fas fa-boxes"></i> Stock</p>
+         </div>
+        <div> 
+          <p class="celulle2"><i class="fas fa-dollar-sign"></i> Cash</p>
+        </div>
+        <div class="blockligne2">
+          <p class="celulle3"><i class="fas fa-trophy"></i> Conversion</p>
+          <p class="celulle4"><i class="fas fa-warehouse"></i> Warehouse</p>
+        </div>
+      </section> -->
+      <!-- end board -->
+    </section>
+    <!-- section2 -->
+    <section class="section2">
+      <h2>Tendency indicators <i class="fas fa-stethoscope"></i></h2>
+      <img src="" alt="">
+      <section class="section22">
+        <div id="cercle1"><p class="circletext"><strong>40</strong><i class="fas fa-dollar-sign"></i><br>Average purchasse</p></div>
+        <div id="cercle2"><p class="circletext"><strong>30%</strong><br>Aborted</p></div>
+        <div id="cercle3"><p class="circletext"><strong>25480</strong><i class="fas fa-dollar-sign"></i><br>Monthly sales</p></div>
+        <div id="cercle4"><p class="circletext"><strong>80%</strong><br>Satisfaction</p></div>
+        <div></div>
+      </section>
+    <br>
+  </div>
+      <h2>Charts <i class="far fa-chart-bar"></i></script></h2>
+      
+      <section>
+        <div class="linebar">
+          <p class="titleprogressbar">entertainement</p>
+          <div class="progress-bar">
+            <div class="progress" style="width:40%;" >
+              <span>40%</span>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="linebar">
+          <p class="titleprogressbar">Hight tech</p>
+          <div class="progress-bar">
+            <div class="progress" style="width:80%;">
+              <span>80%</span>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="linebar">
+          <p class="titleprogressbar">Clothes</p>
+          <div class="progress-bar">
+            <div class="progress" style="width:60%;">
+              <span>60%%</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+  <!-- end main -->
+
+  </main>
+
   <script src="js/vendor/modernizr-3.8.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
+  <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
