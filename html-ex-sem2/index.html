@@ -29,7 +29,8 @@
   <!-- start main -->
   <main>
     <header>
-      <h1>Sales dashboard</h1>
+      
+      <h1 >Sales dashboard</h1>
     </header>
     <!-- section1 -->
     <section class="section1">
@@ -38,12 +39,13 @@
         <ul>
           <li>
             <p>Products<br>
-              <input class="input" type="text" id="name" name="name" value="Product's name" size="12"> </p>
+              <span onclick="alert('chosit ton produit !!');"><input class="input" type="text" id="name" name="name" value="Product's name" size="12"> </p></span>
+              
           </li>
           <li>
             <!-- list for choice elem  -->
             <p>Price<br>
-            <SELECT class="Pricebutton" name="nom" size="1">
+              <span onclick="alert('choisit le prix !!');"><SELECT class="Pricebutton" name="nom" size="1">
               <OPTION>1
               <OPTION>2
               <OPTION>3
@@ -51,12 +53,12 @@
               <OPTION>4
               <OPTION>5
               <option>6
-              </SELECT></p>
+              </SELECT></p></span>
           </li>
-          <li>
+          <span>
             <!-- list for choice elem  -->
             <p>Quantity > to<br>
-            <SELECT class="Quantitybutton" name="quantity" size="1">
+              <span onclick="alert('choisit la quantité !!');"><SELECT class="Quantitybutton" name="quantity" size="1">
               <OPTION selected>0
               <OPTION>10
               <OPTION>20
@@ -64,10 +66,10 @@
               <OPTION>40
               <OPTION>50
               <option>60
-              </SELECT></p>
+              </SELECT></p></span>
           </li>
           <li>
-            <button class="buttonsort" name="button" >Sort</button>
+            <span onclick="alert('retente ta chance une autre fois !!');"><button class="buttonsort" name="button" >Sort</button></span>
           </li>
         </ul>
       </nav>
@@ -107,7 +109,7 @@
       <!-- start board -->
       <table class="board2">
         <tr class="tr2"><td class="celulle1"><i class="fas fa-boxes"></i> Stock</td><td class="celulle2"><i class="fas fa-dollar-sign"></i> Cash</td></tr>
-        <tr class="tr2"><td class="celulle3"><i class="fas fa-trophy"></i> Conversion</td><td class="celulle4"><i class="fas fa-warehouse"></i> Warehouse</td></tr>
+        <tr class="tr2"><td class="celulle3"><i class="fas fa-trophy"></i> Conversion</td><td class="celulle1"><i class="fas fa-warehouse"></i> Warehouse</td></tr>
       </table>
       <!-- end board -->
     </section>
